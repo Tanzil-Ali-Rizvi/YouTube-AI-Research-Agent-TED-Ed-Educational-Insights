@@ -48,5 +48,5 @@ To transition this from a prototype to a production-grade intelligence engine, t
 
 1.  **Semantic Search (Vector Embeddings):** Upgrade from keyword-based BM25 search to **Elasticsearch Vector Search** using `text-embedding-3-small`. This allows the agent to find "Mental Health" content even if the query uses synonyms like "Psychological Well-being."
 2.  **Interactive Streamlit UI:** Develop a dedicated frontend where users can paste any YouTube Playlist URL. The UI will feature a **Temporal Progress Bar** for live ingestion tracking and a robust research chat interface.
-3.  **Automatic Citation Deep-Links:** Enhance the Agent's output logic to automatically generate Markdown links with specific time-offsets (e.g., `https://youtu.be/VIDEO_ID?t=120`), allowing users to verify facts instantly.
+3.  **Automatic Citation Deep-Links:** Enhance the Agent's output logic to automatically generate Markdown links with specific time-offsets, allowing users to verify facts instantly.
 4.  **Multi-Modal Analysis:** Integrate **OpenAI Whisper** for high-accuracy transcription of videos with poor auto-captions and **GPT-4o Vision** to analyze and describe complex scientific diagrams shown in TED-Ed animations.
